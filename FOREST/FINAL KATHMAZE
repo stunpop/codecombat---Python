@@ -1,0 +1,15 @@
+# Use a while-true loop to both move and attack.
+
+while True:
+    
+    pass 
+    hero.moveRight()
+    hero.moveUp()
+    enemy = hero.findNearestEnemy()
+    hero.attack(enemy)
+    hero.attack(enemy)
+    hero.moveRight()
+    hero.moveDown()
+    hero.moveDown()
+    hero.moveUp()
+    
