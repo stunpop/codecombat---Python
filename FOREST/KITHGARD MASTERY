@@ -1,0 +1,22 @@
+
+gems = 0
+while True:
+    hero.moveRight()
+    hero.moveUp(2)
+    enemy = hero.findNearestEnemy()
+    hero.attack(enemy)
+    hero.attack(enemy)
+    hero.moveLeft()
+    hero.moveUp(2)
+    hero.moveRight(2)
+    hero.moveUp()
+    gems = gems + 1
+    
+    hero.moveDown()
+    hero.moveRight()
+    hero.moveDown(2)
+    hero.say(gems)
+    hero.moveDown(2)
+    hero.moveRight()
+    hero.say("Swordfish")
+    hero.moveRight()
