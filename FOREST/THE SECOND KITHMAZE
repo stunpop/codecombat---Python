@@ -1,0 +1,7 @@
+# hero, Use a while-true loop to navigate the maze!
+loop:
+    hero.moveRight()
+    hero.moveUp()
+    hero.moveRight()
+    hero.moveDown()
+    
