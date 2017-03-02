@@ -1,0 +1,10 @@
+# Defeat the ogres.
+# Remember that they each take two hits.
+
+self.moveRight()
+self.attack("Rig")
+self.attack("Rig")
+self.attack("Gurt")
+self.attack("Gurt")
+self.attack("Ack")
+self.attack("Ack")
