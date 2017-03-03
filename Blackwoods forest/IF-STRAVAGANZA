@@ -1,0 +1,12 @@
+
+# Defeat the ogres from within their own camp!
+
+while True:
+    
+    enemy = hero.findNearestEnemy()
+    if enemy : 
+        hero.attack(enemy)
+        hero.attack(enemy)
+    # Use an if-statement to check if an enemy exists:
+    
+        # Attack the enemy if it exists:
