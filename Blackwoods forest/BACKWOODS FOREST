@@ -1,0 +1,26 @@
+# Incoming ogres!
+# Use the checkAndAttack function to make your code easy to read.
+
+# This function has a parameter.
+# An parameter is a way of passing information into a function.
+def checkAndAttack(target):
+    # The 'target' parameter is just a variable!
+    # It contains the argument when the function was called.
+    if target:
+        hero.attack(target)
+    hero.moveXY(43, 34)
+
+while True:
+    hero.moveXY(58, 52)
+    topEnemy = hero.findNearestEnemy()
+    checkAndAttack(topEnemy)
+
+    
+    hero.moveXY(58, 14)
+    bottomEnemy = hero.findNearestEnemy()
+    checkAndAttack(bottomEnemy)
+    hero.moveXY(58, 16)
+    topEnemy = hero.findNearestEnemy()
+    checkAndAttack(topEnemy)
+    
+    
