@@ -1,0 +1,16 @@
+
+def nearestEnemyDistance():
+    enemy = hero.findNearestEnemy()
+    result = 0
+    if enemy:
+        result = hero.distanceTo(enemy)
+    return result
+
+while True:
+    # Call 'nearestEnemyDistance' function and save a result in a variable 'distance'.
+    distance = nearestEnemyDistance()
+    # If 'distance' is greater than 0:
+    if distance>0:
+        # Say the distance.
+        hero.say(distance)
+pass
